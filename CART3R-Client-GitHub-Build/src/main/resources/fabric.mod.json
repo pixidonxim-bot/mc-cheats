@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "cart3r",
+  "version": "${version}",
+  "name": "CART3R Client",
+  "description": "A crimson-themed client-side utility and HUD mod.",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.cart3r.client.CART3RClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
